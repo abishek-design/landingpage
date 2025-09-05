@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- SEO & Metadata -->
+    <title>Techwork By Abi — Web Design & AI Automation Services</title>
+    <meta name="description" content="Modern, mobile-first websites and AI automation solutions that help businesses scale. Contact us for fast, professional delivery.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Techwork By Abi — Web Design & AI Automation Services" />
+    <meta property="og:description" content="Techwork By Abi builds high-performance websites and AI automation to save you time. Get a quote today." />
+    <meta property="og:image" content="https://picsum.photos/1200/630" />
+    <meta property="og:url" content="https://techworkbyabi.example.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'primary': '#8B5CF6', // violet-500
+              'primary-hover': '#7C3AED', // violet-600
+              'accent': '#A78BFA', // violet-400
+              'background-dark': '#111827', // gray-900
+              'content-dark': '#1F2937', // gray-800
+              'light-text': '#F3F4F6', // gray-100
+              'dark-text': '#9CA3AF', // gray-400
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <style>
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+          box-shadow: 0 0 80px 20px rgba(139, 92, 246, 0.35), inset 0 0 80px 20px rgba(139, 92, 246, 0.25);
+        }
+        50% {
+          transform: scale(1.05);
+          box-shadow: 0 0 120px 30px rgba(139, 92, 246, 0.5), inset 0 0 100px 25px rgba(139, 92, 246, 0.3);
+        }
+      }
+    </style>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background-dark">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
